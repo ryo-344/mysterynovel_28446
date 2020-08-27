@@ -1,0 +1,11 @@
+<div class="contents row">
+  <div class="container">
+    <%= form_with(model: @review, local: true) do |form| %>
+      <h3>レビューを書</h3>
+       <%= form.text_field :title, placeholder: "本の題名を入力してください" %>
+       <%= form.text_field :author, placeholder: "本の著者名を入力してください" %>
+       <%= form.text_area :content, placeholder: "本のレビューを書いてください", rows: "20" %>
+       <%= form.submit "送信" %>
+    <% end %>
+  </div>
+</div>
