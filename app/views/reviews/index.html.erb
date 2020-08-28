@@ -1,9 +1,16 @@
 <div class="contents row">
   <% @reviews.each do |review| %>
-    <div class ="content_post" >
-    <p><%= review.title %></p>
-    <p><%= review.autor%>
-    <p><%= review.content%>
+    <div class ="content_title" >
+      <div class=title_author>
+        <span>題名：<%= review.title %></span>
+        <span class="author">著者名：
+          <%= review.author%>
+        </span>
+      </div>
+      <span class="content">
+        <%= review.content%>
+      </span>
+    </div>
   <% end %>
 </div>
       

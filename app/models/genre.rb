@@ -7,9 +7,10 @@ class Genre < ActiveHash::Base
     { id: 5, name: 'イヤミス'},
     { id: 6, name: '医療'},
     { id: 7, name: 'SF'},
-    { id: 8, name: '日常'},
+    { id: 8, name: '特殊'},
     { id: 9, name: '恋愛'},
     { id: 10, name: 'アクション'},
-    { id: 11, name: '短編'},
+    { id: 11, name: '日常'},
+    { id: 12, name: '短編'},
   ]
 end

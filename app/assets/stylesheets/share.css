@@ -1,0 +1,32 @@
+.header__bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.user_nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.post{
+  margin-left: 20px;
+}
+
+.content_title{
+  padding: 40px;
+}
+
+.author{
+  display: flex;
+}
+
+.title_author{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.author{
+  margin-left: 60px;
+}
+
