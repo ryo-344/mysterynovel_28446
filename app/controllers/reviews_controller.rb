@@ -21,7 +21,7 @@ class ReviewsController < ApplicationController
   private
 
   def review_params
-    params.require(:review).permit(:title, :author, :genre_id, :content).merge(user_id: current_user.id)
+    params.require(:review).permit(:title, :author, :genre_id, :content, :image).merge(user_id: current_user.id)
   end
 
   def move_to_index

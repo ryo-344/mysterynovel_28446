@@ -2,6 +2,7 @@
   <% @reviews.each do |review| %>
     <div class ="content_title" >
       <div class=title_author>
+        <%= image_tag review.image, class: 'review-image' if review.image.attached? %>
         <span>題名：<%= review.title %></span>
         <span class="author">著者名：
           <%= review.author%>
