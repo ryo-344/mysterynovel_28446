@@ -9,6 +9,12 @@
   align-items: center;
 }
 
+.category{
+  display: flex;
+  align-items: center;
+}
+
+
 .post{
   margin-left: 20px;
 }
@@ -36,5 +42,9 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.content{
+  margin-top: 50px;
 }
 
