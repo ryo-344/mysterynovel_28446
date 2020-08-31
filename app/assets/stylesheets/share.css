@@ -15,6 +15,7 @@
 
 .content_title{
   padding: 40px;
+  width: 50vh;
 }
 
 .author{
@@ -28,5 +29,12 @@
 
 .author{
   margin-left: 60px;
+}
+
+.contents{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 

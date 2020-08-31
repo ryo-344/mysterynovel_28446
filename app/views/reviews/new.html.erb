@@ -2,6 +2,8 @@
   <div class="container">
     <%= form_with(model: @review, local: true) do |form| %>
       <h3>レビューを書</h3>
+       <span class="image-file">画像</span>
+       <%= form.file_field :image, class: 'hidden' %>
        <%= form.text_field :title, placeholder: "本の題名を入力してください" %>
        <%= form.text_field :author, placeholder: "本の著者名を入力してください" %>
        <%= form.collection_select(:genre_id, Genre.all, :id, :name, {},) %>

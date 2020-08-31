@@ -1,6 +1,7 @@
-<div class="contents row">
+<div class="contents">
   <% @reviews.each do |review| %>
     <div class ="content_title" >
+      <%= image_tag review.image.variant(resize:'200x200'), class: 'review-image' if review.image.attached? %>
       <div class=title_author>
         <span>題名：<%= review.title %></span>
         <span class="author">著者名：
