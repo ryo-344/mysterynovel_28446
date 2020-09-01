@@ -8,9 +8,9 @@
           <%= review.author%>
         </span>
       </div>
-      <span class="content">
-        <%= review.content%>
-      </span>
+      <div class="content">
+        <%= link_to review.content, review_path(review.id), method: :get %>
+      </div>
     </div>
   <% end %>
 </div>

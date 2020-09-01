@@ -1,0 +1,31 @@
+.show-contents{  
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.show-content{
+  width: 50vw;
+}
+
+.show-title{
+  
+}
+
+.show-list{
+  border:1px solid black;
+  margin: 1px;
+}
+
+.edits{
+  margin-top: 20px;
+  display: flex;
+}
+
+.edit{
+  width: 50px;
+  background-color: red;
+  font-size: large;
+  border: 1px solid black;
+  margin: 40px;
+}
