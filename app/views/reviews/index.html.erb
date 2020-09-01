@@ -9,8 +9,7 @@
         </span>
       </div>
       <div class="content">
-        レビュー:
-        <%= review.content%>
+        <%= link_to review.content, review_path(review.id), method: :get %>
       </div>
     </div>
   <% end %>

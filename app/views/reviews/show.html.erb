@@ -1,0 +1,16 @@
+<div class="show-contents">
+  <div class="image">
+    <%= image_tag @review.image.variant(resize:'400x400'), class: 'review-image' if @review.image.attached? %>
+  </div>
+  <div class="show-content">
+    <ul class="show-title">
+      <li class="show-list">題名: <%= @review.title%></li>
+      <li class="show-list">著者名: <%= @review.author%></li>
+      <li class="show-list"><%= @review.content%></li>
+    </ul>
+    <ul class="edits">
+      <li class="edit">編集</li>
+      <li class="edit">削除</li>
+    </ul>
+  </div>
+</div>
