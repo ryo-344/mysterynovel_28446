@@ -1,7 +1,7 @@
 .show-contents{  
-  height: 100vh;
   display: flex;
   justify-content: space-around;
+  background-color: slategray;
 }
 
 .show-content{
@@ -14,7 +14,7 @@
 
 .show-list{
   border:1px solid black;
-  margin: 1px;
+  margin: 10px;
 }
 
 .edits{
@@ -28,4 +28,26 @@
   font-size: large;
   border: 1px solid black;
   margin: 40px;
+}
+
+.forms{
+  margin-top: 200px;
+}
+
+
+.comment-title{
+  display: block;
+  margin: auto;
+  width: 50vw;
+}
+
+.comment-button{
+  display: block;
+  margin: 30px auto;
+  width: 100px;
+}
+
+.comments{
+  margin: 100px 100px;
+  background-color: skyblue;
 }

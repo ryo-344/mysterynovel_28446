@@ -18,6 +18,7 @@ header {
   height :70px;
   display: flex;
   padding: 0 60px;
+  background-color: teal;
 }
 
 li {
@@ -69,6 +70,9 @@ li {
 
 .post{
   margin-left: 20px;
+  border: 1px solid skyblue;
+  padding: 2px;
+  color: black;
 }
 
 .content_title{

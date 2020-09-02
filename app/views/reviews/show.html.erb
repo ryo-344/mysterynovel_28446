@@ -12,5 +12,29 @@
       <li class="edit">編集</li>
       <li class="edit">削除</li>
     </ul>
+    <div class="fav">いいね ⭐️</div>
+  </div>
+</div>
+<div class="forms">
+  <div class="form">
+    <% if current_user %>
+      <%= form_with(model: [@review, @comment], local: true) do |form| %>
+        <%= form.text_area :sentence, placeholder: "コメントを入力してください", rows: "2", class: "comment-title"%>
+        <%= form.submit "送信", class: "comment-button" %>
+      <% end %>
+    <% else %>
+      <strong><p>*** コメントの投稿には新規登録/ログインが必要です ***</p></strong>
+    <% end %>
+  </div>
+  <div class="comments">
+    <h3>＜コメント一覧＞</h3>
+    <% if @comments %>
+      <% @comments.each do |comment| %>
+        <p>
+          <strong><%= link_to comment.user.nickname, "/users/#{comment.user_id}" %>:</strong>
+          <%= comment.sentence %>
+        </p>
+      <% end %>
+    <% end %>
   </div>
 </div>
