@@ -21,11 +21,11 @@
 
 # 本番環境
 URL: https://mysterynovel-28446.herokuapp.com/
-basic認証 id: admin
-basic認証 pass: 2222
-nickname: taro
-email: ttt@sample.com
-password: ttttt0
+basic認証 id: admin  
+basic認証 pass: 2222  
+nickname: taro  
+email: ttt@sample.com  
+password: ttttt0  
 
 # 制作背景
 
@@ -34,8 +34,8 @@ password: ttttt0
 # DEMO
 
 # 工夫したポイント
-・Ajaxを用いて非同期でジャンル表示機能を実装しました
-・レビュー詳細ページへのリンクを本のレビューに設定しました
+・Ajaxを用いて非同期でジャンル表示機能を実装しました  
+・レビュー詳細ページへのリンクを本のレビューに設定しました  
 
 # 使用技術
 Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code/JavaScript
