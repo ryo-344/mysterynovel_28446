@@ -20,6 +20,12 @@
 ![ジャンル表示](https://github.com/ryo-344/mysterynovel_28446/blob/master/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%92%E3%82%99%E3%83%A5%E3%83%BC%E3%82%B7%E3%82%99%E3%83%A3%E3%83%B3%E3%83%AB%E8%A1%A8%E7%A4%BA%E6%A9%9F%E8%83%BD.png?raw=true)
 
 # 本番環境
+URL: https://mysterynovel-28446.herokuapp.com/
+basic認証 id: admin
+basic認証 pass: 2222
+nickname: taro
+email: ttt@sample.com
+password: ttttt0
 
 # 制作背景
 
@@ -28,12 +34,18 @@
 # DEMO
 
 # 工夫したポイント
+・Ajaxを用いて非同期でジャンル表示機能を実装しました
+・レビュー詳細ページへのリンクを本のレビューに設定しました
 
 # 使用技術
+Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code/JavaScript
+
 
 # 課題・今後実装したい機能
 ## ジャンル別表示機能
+・jsを利用して非同期で実装しようと考えています
 ## いいね機能
+・jsを利用して非同期で実装しようと考えています
 
 
 # テーブル設計
