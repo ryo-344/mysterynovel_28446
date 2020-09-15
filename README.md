@@ -32,6 +32,13 @@ password: ttttt0
 ・小説のレビューサイトは数多くありますが、ミステリーに特化したサイトはとても少ないと感じていました。また、一口にミステリーと言っても多様なジャンルがあり、好みも人それぞれであると思っていました。
 
 # DEMO
+![レビュー投稿](https://github.com/ryo-344/mysterynovel_28446/blob/master/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%92%E3%82%99%E3%83%A5%E3%83%BCdemo%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E6%8A%95%E7%A8%BF.mp4?raw=true)
+
+![レビュー詳細](https://github.com/ryo-344/mysterynovel_28446/blob/master/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%92%E3%82%99%E3%83%A5%E3%83%BCdemo%E8%A9%B3%E7%B4%B0%E8%A1%A8%E7%A4%BA.mp4?raw=true)
+
+![レビューコメント](https://github.com/ryo-344/mysterynovel_28446/blob/master/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%92%E3%82%99%E3%83%A5%E3%83%BCdemo%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E6%8A%95%E7%A8%BF.mp4?raw=true)
+
+![ジャンル表示](https://github.com/ryo-344/mysterynovel_28446/blob/master/%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%83%AC%E3%83%92%E3%82%99%E3%83%A5%E3%83%BCdemo%E3%82%B7%E3%82%99%E3%83%A3%E3%83%B3%E3%83%AB%E8%A1%A8%E7%A4%BA.mp4?raw=true)
 
 # 工夫したポイント
 ・Ajaxを用いて非同期でジャンル表示機能を実装しました  
