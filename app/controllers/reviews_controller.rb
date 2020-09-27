@@ -24,6 +24,13 @@ class ReviewsController < ApplicationController
     @comments = @review.comments.includes(:user)
   end
 
+  def destroy
+    @review = Review.find(params[:id])
+    if @review.destroy
+      redirect_to root_path
+    end
+  end
+
   private
 
   def review_params

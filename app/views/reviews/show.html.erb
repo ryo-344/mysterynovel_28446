@@ -9,8 +9,12 @@
       <li class="show-list"><%= @review.content%></li>
     </ul>
     <ul class="edits">
+    <% if user_signed_in? && current_user.id == @review.user_id %>
       <li class="edit">編集</li>
-      <li class="edit">削除</li>
+      <li class="edit">
+        <%= link_to '削除', review_path(@review.id), method: :delete %>
+      </li>
+    <% end %>
     </ul>
     <div class="fav">いいね ⭐️</div>
   </div>
