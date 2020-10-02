@@ -54,6 +54,8 @@ Ruby/Ruby on Rails/MySQL/Github/Visual Studio Code/JavaScript
 ## いいね機能
 ・jsを利用して非同期で実装しようと考えています
 
+### 「herokuでデプロイしているため、仕様により本番環境にアクセス頂いた際、画像リンクが切れている可能性がございます。」
+
 
 # テーブル設計
 
